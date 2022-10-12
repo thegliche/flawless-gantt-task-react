@@ -1,7 +1,7 @@
 import React, { useMemo } from "react";
 import styles from "./task-list-table.module.css";
 import { Task } from "../../types/public-types";
-
+import '../../style.css';
 const localeDateStringCache = {};
 const toLocaleDateStringFactory =
   (locale: string) =>

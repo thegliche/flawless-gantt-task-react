@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./task-list-header.module.css";
-
+import '../../style.css';
+import { classNames } from "../../helpers/other-helper";
 export const TaskListHeaderDefault: React.FC<{
   headerHeight: number;
   rowWidth: string;
@@ -9,7 +10,7 @@ export const TaskListHeaderDefault: React.FC<{
 }> = ({ headerHeight, fontFamily, fontSize, rowWidth }) => {
   return (
     <div
-      className={styles.ganttTable}
+      className={classNames(styles.ganttTable, 'text-red-400')}
       style={{
         fontFamily: fontFamily,
         fontSize: fontSize,

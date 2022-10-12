@@ -4,7 +4,7 @@ import { BarDisplay } from "./bar-display";
 import { BarProgressHandle } from "./bar-progress-handle";
 import { TaskItemProps } from "../task-item";
 import styles from "./bar.module.css";
-
+import '../../../style.css';
 export const BarSmall: React.FC<TaskItemProps> = ({
   task,
   isProgressChangeable,

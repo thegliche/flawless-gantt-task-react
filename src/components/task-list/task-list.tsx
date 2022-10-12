@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from "react";
 import { BarTask } from "../../types/bar-task";
 import { Task } from "../../types/public-types";
-
+import '../../style.css';
 export type TaskListProps = {
   headerHeight: number;
   rowWidth: string;

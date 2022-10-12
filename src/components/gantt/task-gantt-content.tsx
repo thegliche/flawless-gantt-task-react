@@ -10,7 +10,7 @@ import {
   GanttContentMoveAction,
   GanttEvent,
 } from "../../types/gantt-task-actions";
-
+import '../../style.css';
 export type TaskGanttContentProps = {
   tasks: BarTask[];
   dates: Date[];

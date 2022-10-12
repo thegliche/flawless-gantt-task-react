@@ -1,6 +1,6 @@
 import React, { SyntheticEvent, useRef, useEffect } from "react";
 import styles from "./horizontal-scroll.module.css";
-
+import '../../style.css';
 export const HorizontalScroll: React.FC<{
   scroll: number;
   svgWidth: number;

@@ -2,7 +2,7 @@ import React, { ReactChild } from "react";
 import { Task } from "../../types/public-types";
 import { addToDate } from "../../helpers/date-helper";
 import styles from "./grid.module.css";
-
+import '../../style.css';
 export type GridBodyProps = {
   tasks: Task[];
   dates: Date[];

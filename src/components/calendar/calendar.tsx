@@ -10,6 +10,7 @@ import {
 } from "../../helpers/date-helper";
 import { DateSetup } from "../../types/date-setup";
 import styles from "./calendar.module.css";
+import '../../style.css';
 
 export type CalendarProps = {
   dateSetup: DateSetup;

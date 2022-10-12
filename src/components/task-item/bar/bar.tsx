@@ -5,7 +5,7 @@ import { BarDateHandle } from "./bar-date-handle";
 import { BarProgressHandle } from "./bar-progress-handle";
 import { TaskItemProps } from "../task-item";
 import styles from "./bar.module.css";
-
+import '../../../style.css';
 export const Bar: React.FC<TaskItemProps> = ({
   task,
   isProgressChangeable,

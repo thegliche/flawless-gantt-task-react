@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./calendar.module.css";
-
+import '../../style.css';
 type TopPartOfCalendarProps = {
   value: string;
   x1Line: number;
