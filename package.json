@@ -6,7 +6,7 @@
   "homepage": "https://github.com/MaTeMaTuK/gantt-task-react",
   "license": "MIT",
   "repository": "MaTeMaTuK/gantt-task-react",
-  "main": "dist/index.js",
+  "main": "src/index.tsx",
   "module": "dist/index.modern.js",
   "source": "src/index.tsx",
   "engines": {
