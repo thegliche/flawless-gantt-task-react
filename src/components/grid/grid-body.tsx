@@ -21,6 +21,9 @@ export const GridBody: React.FC<GridBodyProps> = ({
   todayColor,
   rtl,
 }) => {
+
+
+
   let y = 0;
   const gridRows: ReactChild[] = [];
   const rowLines: ReactChild[] = [
@@ -116,6 +119,7 @@ export const GridBody: React.FC<GridBodyProps> = ({
     }
     tickX += columnWidth;
   }
+
   return (
     <g className="gridBody">
       <g className="rows">{gridRows}</g>

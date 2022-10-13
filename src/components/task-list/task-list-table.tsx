@@ -14,12 +14,12 @@ const toLocaleDateStringFactory =
     }
     return lds;
   };
-const dateTimeOptions: Intl.DateTimeFormatOptions = {
-  weekday: "short",
-  year: "numeric",
-  month: "long",
-  day: "numeric",
-};
+// const dateTimeOptions: Intl.DateTimeFormatOptions = {
+//   weekday: "short",
+//   year: "numeric",
+//   month: "long",
+//   day: "numeric",
+// };
 
 export const TaskListTableDefault: React.FC<{
   rowHeight: number;
@@ -44,7 +44,7 @@ export const TaskListTableDefault: React.FC<{
     () => toLocaleDateStringFactory(locale),
     [locale]
   );
-
+  console.log(toLocaleDateString)
   return (
     <div
       className={styles.taskListWrapper}
@@ -89,7 +89,7 @@ export const TaskListTableDefault: React.FC<{
                 <div>{t.name}</div>
               </div>
             </div>
-            <div
+            {/* <div
               className={styles.taskListCell}
               style={{
                 minWidth: rowWidth,
@@ -106,7 +106,7 @@ export const TaskListTableDefault: React.FC<{
               }}
             >
               &nbsp;{toLocaleDateString(t.end, dateTimeOptions)}
-            </div>
+            </div> */}
           </div>
         );
       })}
